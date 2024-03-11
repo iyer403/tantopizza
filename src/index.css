@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
+}
+
+.splide {
+  width: 100%;
+  height: auto;
+}
+
+.splide img {
+  width: 100%;
+  max-height: 40vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
